@@ -20,9 +20,55 @@
     height: auto;
 }
 
+/* INTRO SECTION */
+
+#intro-head {
+    padding: 50px;
+    margin-top: 30px;
+}
+
+#tr-quote {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 80px 0 80px;
+
+}
+
+#theo {
+ float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0 75px 70px 0;
+    padding-right: 30px;
+}
+
+#tim {
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    margin: 60px 10px 50px 10px;
+}
+
+#bio {
+    display: inline-block;
+    width: 500px;
+    margin: 60px 0 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+/* TESTIMONIALS */
+
 .testimonials {
     background-color: #FAAF40;
 }
+
 
 #test-img {
     vertical-align: baseline;
@@ -54,11 +100,11 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     font-weight: bold;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 0 0;
     padding: 20px;
 }
 
 #test-light {
     height: 75px;
+    display: inline-block;
 }
-
