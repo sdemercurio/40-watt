@@ -1,2 +1,5 @@
 # 40-watt
-Website for executive coaching company
+
+![alt text](../40-watt\img\40-Watt-Large-For-Web-Color.jpg)
+
+

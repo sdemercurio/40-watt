@@ -12,7 +12,9 @@
 }
 
 #trust {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 50px;
     text-align: center;
     padding: 20px;
@@ -20,18 +22,27 @@
     height: auto;
 }
 
+button {
+    background-color: #FAAF40;
+}
+
+
 /* INTRO SECTION */
 
 #intro-head {
     padding: 50px;
     margin-top: 30px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #tr-quote {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    font-weight: bold;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;    
     margin: 20px 80px 0 80px;
 
 }
@@ -57,7 +68,10 @@
     display: inline-block;
     width: 500px;
     margin: 60px 0 0 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: futura-pt, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
     color: black;
     font-size: 20px;
     line-height: 2rem;
@@ -97,9 +111,10 @@
 
 #test-head  {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 50px;
-    font-weight: bold;
     margin: 20px 0 0 0;
     padding: 20px;
 }
