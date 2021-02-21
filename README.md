@@ -1,5 +1,10 @@
 # 40-watt
+## Project for executive coach Tim Fortescue
 
-![alt text](./img/40-Watt-Large-For-Web-Color.jpg)
+![alt text](./img/40-Watt-small-For-Web-Color.jpg)
+
+
+
+
 
 
