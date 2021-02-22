@@ -147,6 +147,7 @@ button {
     margin-left: 70px;
     padding: 0px 15px 15px 15px;
     font-family: futura-pt, sans-serif;
+    font-size: 18px;
     color: white;
 }
 
@@ -183,6 +184,8 @@ button {
 
 .services {
     background-color: white;
+    text-align: center;
+    margin: auto;
 
 }
 
