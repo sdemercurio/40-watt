@@ -1,7 +1,7 @@
 # 40-watt
 ## Project for executive coach Tim Fortescue
 
-![alt text](./img/40-Watt-small-For-Web-Color.jpg)
+![alt text](./assets/img/logo/40-Watt-small-For-Web-Color.jpg)
 
 ## Graphic Design:
 Sarah DeMercurio
