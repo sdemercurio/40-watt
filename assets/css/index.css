@@ -23,7 +23,7 @@ nav {
     color: #FAAF40;
 }
 
-#contact {
+#timmailto {
     background-color: #FAAF40 !important;
     color:white;
     font-size: 25px;
@@ -37,6 +37,7 @@ nav {
 }
 
 #main-logo {
+    width:80%;
     margin: auto;
     align-items: center;
     text-align: center;
@@ -268,7 +269,7 @@ h5 {
     padding: 20px;
 }
 
-i {
+#contact-links {
     display: inline-block;
     font-size: 30px;
     color: #FAAF40;
