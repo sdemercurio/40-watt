@@ -31,11 +31,11 @@ nav {
 }
 
 #main-logo {
-    width:100%;
-    height: auto;
+    
+    margin: 40px 0 0 0;
+    justify-content: center;
     text-align: center;
-    align-items: center;
-    margin: 40px 0 0 150px;
+    display: flex;
 }
 
 #footer {
@@ -95,21 +95,21 @@ button {
 
 #tim {
     float: left;
-    width: 50%;
-    position: relative;
+    width: auto;
+    height: 725px;
     margin: 60px 10px 20px 10px;
 }
 
 #bio {
     float: right;
-    width: 40%;
+    width: 50%;
     margin: 60px 0 0 10px;
     font-family: futura-pt, sans-serif;
     font-size: 60px;
     font-weight: 400;
     font-style: normal;
     color: black;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 2rem;
 }
 
