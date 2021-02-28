@@ -254,7 +254,6 @@ h5 {
     font-style: normal;
     color: #FAAF40;
     font-size: 20px;
-    line-height: 3rem;
 }
 
 /* FOOTER */
@@ -274,3 +273,143 @@ h5 {
     font-size: 30px;
     color: #FAAF40;
 }
+
+/* Media queries */
+
+@media only screen and (max-width: 360px) {
+    #tr-quote {
+        font-size: 35px;
+        text-align: center;
+        margin: auto;
+    }
+
+    #theo {
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+    }
+
+    #test-img #test-role {
+      align-items: center;
+    }
+
+    #test-quote {
+        width: 100%;
+        margin: 10px 0 50px 0;
+    }
+
+    #test-head {
+        margin:auto;
+        text-align: center;
+    }
+
+    #tim {
+        text-align: center;
+        width: auto;
+        height: 350px;
+    }
+
+    #bio {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 18px;
+        height: 20px;
+    }
+
+    #timCarousel {
+        width: 100%;
+    }
+
+    #footer-text {
+        font-size: 18px;
+    }
+
+    #contact-links {
+        align-items: center;
+        margin: 15px 0 15px 0;
+        display: inline-block;
+    }
+
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    #tr-quote {
+        margin: auto;
+    }
+
+    #test-img #test-role {
+      margin: auto;
+    }
+
+    #test-quote {
+        width: 100%;
+        margin: 10px 0 50px 0;
+    }
+
+    #tim {
+        margin: auto;
+        width: auto;
+        height: 400px;
+    }
+
+    #bio {
+        width: 100%;
+    }
+
+    #testimonials {
+        padding: 0 20px 0 20px
+    }
+
+    h5 {
+        font-size: 18px;
+        height: 20px;
+    }
+
+    #timCarousel {
+        width: 100%;
+    }
+
+    #service-text {
+        font-size: 25px;
+    }
+
+    #contact-links {
+        align-items: center;
+        margin: 15px 0 15px 0;
+        display: inline-block;
+    }
+
+  }
+
+  @media only screen and (max-width: 990px) {
+    #test-img #test-role {
+      align-items: center;
+    }
+
+    #test-quote {
+        width: 100%;
+        margin: 10px 0 50px 0;
+    }
+
+    #tim {
+        text-align: center;
+    }
+
+    #bio {
+        width: 100%;
+    }
+
+    #timCarousel {
+        width: 100%;
+    }
+
+    h5 {
+        font-size: 18px;
+        height: 20px;
+    }
+
+  }
