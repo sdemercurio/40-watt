@@ -239,21 +239,13 @@ button {
     margin: auto;
 }
 
-h5 {
+#service-text {
     text-align: center;
     font-family: futura-pt, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 40px;
-    color: #FAAF40;    
-}
-
-#service-text {
-    font-family: futura-pt, sans-serif;
-    font-weight: 400;
-    font-style: normal;
     color: #FAAF40;
-    font-size: 20px;
 }
 
 /* FOOTER */
@@ -314,7 +306,7 @@ h5 {
         font-size: 20px;
     }
 
-    h5 {
+    #service-text {
         font-size: 18px;
         height: 20px;
     }
@@ -364,17 +356,12 @@ h5 {
         padding: 0 20px 0 20px
     }
 
-    h5 {
-        font-size: 18px;
-        height: 20px;
-    }
-
     #timCarousel {
         width: 100%;
     }
 
     #service-text {
-        font-size: 25px;
+        font-size: 45px;
     }
 
     #contact-links {
@@ -407,7 +394,7 @@ h5 {
         width: 100%;
     }
 
-    h5 {
+    #service-text {
         font-size: 18px;
         height: 20px;
     }
