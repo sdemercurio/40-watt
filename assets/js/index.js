@@ -1,5 +1,5 @@
 
 
 
-document.getElementById('timmailto').click();
+// document.getElementById('timmailto').click();
 
