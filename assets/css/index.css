@@ -127,6 +127,9 @@ button {
     background-color: #FAAF40;
 }
 
+#test-contain {
+    margin: auto;
+}
 
 #test-img {
     vertical-align: baseline;
