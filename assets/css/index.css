@@ -168,7 +168,7 @@ button {
 }
 
 #test-role {
-    width: 300px;
+    width: 250px;
    
     padding: 0px 45px 0 0;
     font-family: futura-pt, sans-serif;
@@ -179,13 +179,13 @@ button {
 }
 
 #test-role-s {
-    width: 300px;
+    width: 250px;
     padding: 0px 0px 0 0;
     font-family: futura-pt, sans-serif;
     font-size: 18px;
     color: white;
     letter-spacing: 1px;
-    text-align: center;
+    justify-content: center;
 }
 
 #test-quote {
