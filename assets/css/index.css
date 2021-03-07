@@ -140,7 +140,7 @@ button {
     display: inline-block;
     width: 200px;
     height: 200px;
-    margin: 30px 30px 0 0;
+    margin: 30px 10px 0 0;
 }
 
 #test-img-s {
@@ -148,7 +148,7 @@ button {
     display: inline-block;
     width: 200px;
     height: 200px;
-    margin: 30px 30px 0 0;
+    margin: 30px 10px 0 0;
 }
 
 .test-images {
@@ -190,7 +190,7 @@ button {
 #test-quote {
     float: right;
     width: 60%;
-    margin: 40px 0 0 10px;
+    margin: 40px 0 0 0px;
     font-family: futura-pt, sans-serif;
     font-size: 60px;
     font-weight: 400;
