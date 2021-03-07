@@ -108,7 +108,7 @@ button {
 #tim {
     float: left;
     width: auto;
-    height: 675px;
+    height: 700px;
     margin: 60px 10px 20px 10px;
 }
 
@@ -122,7 +122,7 @@ button {
     font-style: normal;
     color: black;
     font-size: 18px;
-    line-height: 2rem;
+    line-height: 1rem;
 }
 
 /* TESTIMONIALS */
