@@ -3,10 +3,10 @@
 
 ![alt text](./assets/img/logos/40-Watt-small-For-Web-Color.jpg)
 
-## Graphic Design:
+#### Graphic Design:
 Sarah DeMercurio
 
-## Developer:
+#### Developer:
 Sarah DeMercurio
 
 

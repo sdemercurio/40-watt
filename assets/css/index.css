@@ -287,7 +287,7 @@ button {
 
     #test-quote {
         width: 100%;
-        margin: 10px 0 50px 0;
+        margin: auto;
     }
 
     #test-head {
@@ -316,7 +316,8 @@ button {
     }
 
     #footer-text {
-        font-size: 18px;
+        font-size: 14px;
+        text-align: center;
     }
 
     #contact-links {
@@ -397,6 +398,11 @@ button {
     #service-text {
         font-size: 18px;
         height: 20px;
+    }
+
+    #footer-text {
+        font-size: 18px;
+        text-align: center;
     }
 
   }
