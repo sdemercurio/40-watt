@@ -168,7 +168,7 @@ button {
 }
 
 #test-role {
-    width: 250px;
+    width: 300px;
    
     padding: 0px 45px 0 0;
     font-family: futura-pt, sans-serif;
@@ -179,7 +179,7 @@ button {
 }
 
 #test-role-s {
-    width: 250px;
+    width: 300px;
     padding: 0px 0px 0 0;
     font-family: futura-pt, sans-serif;
     font-size: 18px;
