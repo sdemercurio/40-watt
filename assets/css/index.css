@@ -37,7 +37,7 @@ nav {
 }
 
 #main-logo {
-    width:80%;
+    width:50%;
     margin: auto;
     align-items: center;
     text-align: center;
@@ -104,7 +104,7 @@ button {
 #tim {
     float: left;
     width: auto;
-    height: 725px;
+    height: 675px;
     margin: 60px 10px 20px 10px;
 }
 
