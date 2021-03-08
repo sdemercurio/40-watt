@@ -290,8 +290,8 @@ button {
     }
 
     #theo {
-        font-size: 20px;
-        text-align: center;
+        font-size: 15px;
+        text-align: right;
         margin: auto;
     }
 
@@ -329,6 +329,7 @@ button {
     #service-text {
         font-size: 18px;
         height: 20px;
+        text-align: justify;
     }
 
     #timCarousel {
@@ -358,6 +359,12 @@ button {
     #tr-quote {
         margin: auto;
         font-size: 25px;
+    }
+
+    #theo {
+        font-size: 18px;
+        text-align: right;
+        margin: auto;
     }
 
     #test-img #test-role {
@@ -393,6 +400,7 @@ button {
 
     #service-text {
         font-size: 45px;
+        text-align: justify;
     }
 
     #service-head {
