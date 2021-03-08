@@ -345,8 +345,14 @@ button {
 
   @media only screen and (max-width: 800px) {
 
+    #trust {
+        margin: auto;
+        font-size: 25px;
+    }
+
     #tr-quote {
         margin: auto;
+        font-size: 25px;
     }
 
     #test-img #test-role {
