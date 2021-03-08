@@ -278,8 +278,13 @@ button {
 /* Media queries */
 
 @media only screen and (max-width: 360px) {
+
+    #trust {
+        font-size: 20px;
+    }
+
     #tr-quote {
-        font-size: 35px;
+        font-size: 20px;
         text-align: center;
         margin: auto;
     }
