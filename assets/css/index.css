@@ -280,11 +280,11 @@ button {
 @media only screen and (max-width: 360px) {
 
     #trust {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #tr-quote {
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
         margin: auto;
     }
@@ -307,6 +307,7 @@ button {
     #test-head {
         margin:auto;
         text-align: center;
+        font-size: 18px;
     }
 
     #tim {
@@ -319,6 +320,10 @@ button {
     #bio {
         width: 100%;
         font-size: 20px;
+    }
+
+    #service-head {
+        font-size: 18px;
     }
 
     #service-text {
@@ -378,12 +383,20 @@ button {
         padding: 0 20px 0 20px
     }
 
+    #test-head {
+        font-size: 25px;
+    }
+
     #timCarousel {
         width: 100%;
     }
 
     #service-text {
         font-size: 45px;
+    }
+
+    #service-head {
+        font-size: 25px;
     }
 
     #contact-links {
