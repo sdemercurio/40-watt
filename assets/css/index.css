@@ -374,6 +374,7 @@ button {
     #test-quote {
         width: 100%;
         margin: 10px 0 50px 0;
+        text-align: justify;
     }
 
     #tim {
@@ -386,6 +387,7 @@ button {
         width: 100%;
         margin-left: 15px;
         text-align: justify;
+        text-justify: inter-word;
     }
 
     #testimonials {
