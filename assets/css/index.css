@@ -377,17 +377,19 @@ button {
     }
 
     #tim {
-        margin: 10px 0 0 20px;
+        margin: 10px 0 0 15px;
         width: auto;
         height: 400px;
     }
 
     #bio {
         width: 100%;
+        margin-left: 15px;
+        text-align: justify;
     }
 
     #testimonials {
-        padding: 0 20px 0 20px
+        padding: 0 15px 0 15px
     }
 
     #test-head {
