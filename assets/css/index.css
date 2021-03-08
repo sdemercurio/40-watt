@@ -364,7 +364,7 @@ button {
     #theo {
         font-size: 18px;
         text-align: right;
-        margin: 0 0 25px 0;
+        margin: -15px 0 25px 0;
     }
 
     #test-img #test-role {
@@ -377,7 +377,7 @@ button {
     }
 
     #tim {
-        margin: 10px 0 0 30px;
+        margin: 10px 0 0 20px;
         width: auto;
         height: 400px;
     }
@@ -399,7 +399,7 @@ button {
     }
 
     #service-text {
-        font-size: 45px;
+        font-size: 40px;
         text-align: justify;
     }
 
