@@ -388,6 +388,8 @@ button {
     #bio {
         width: 100%;
         margin-left: 15px;
+        font-size: 20px;
+        kerning: auto;
     }
 
     #testimonials {
