@@ -111,6 +111,11 @@ button {
   height: auto;
 }
 
+#tim-stand {
+  width: 100%;
+  height: auto;
+}
+
 #bio {
   width: 100%;
   margin: 20px 0 0 0;
@@ -416,6 +421,11 @@ button {
   height: auto;
 }
 
+#tim-stand {
+  width: 100%;
+  height: auto;
+}
+
 #bio {
   width: 100%;
   margin: 20px 0 0 0;
@@ -716,6 +726,11 @@ button {
       width: 100%;
       height: auto;
     }
+
+    #tim-stand {
+      width: 100%;
+      height: auto;
+    }
   
     #bio {
       width: 100%;
@@ -1011,6 +1026,11 @@ button {
       width: 50%;
       height: auto;
     }
+
+    #tim-stand {
+      width: 100%;
+      height: auto;
+    }
   
     #bio {
       float: right;
@@ -1304,6 +1324,11 @@ nav {
   #intro {
     width: 100%;
     margin: 0 auto;
+  }
+
+  #tim-stand {
+    width: 100%;
+    height: auto;
   }
 
   #tim {
