@@ -130,6 +130,23 @@ button {
   letter-spacing: px;
 }
 
+.linkedin {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.linkedin > a {
+  
+  color: black;
+}
+
+.fa-linkedin {
+  color: #faaf40 !important;
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
 /* TESTIMONIALS */
 
 .testimonials {
