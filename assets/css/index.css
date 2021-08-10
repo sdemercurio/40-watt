@@ -329,6 +329,21 @@ button {
   margin-bottom: 15px;
 }
 
+.contact-me {
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: futura-pt, sans-serif;
+  font-size: 2rem;
+}
+
+#contact-link {
+  margin-top: 2rem !important;
+  color: black;
+}
+
+
 /* FOOTER */
 
 .footer {
