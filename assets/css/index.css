@@ -334,7 +334,7 @@ button {
 
 .contact-me {
   margin-top: 3rem;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   align-content: center;
   font-family: futura-pt, sans-serif;
@@ -488,7 +488,7 @@ button {
 
     .contact-me {
       margin-top: 3rem;
-      justify-content: left;
+      justify-content: center;
       align-items: center;
       align-content: center;
       font-family: futura-pt, sans-serif;
