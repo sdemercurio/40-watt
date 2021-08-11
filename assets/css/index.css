@@ -37,14 +37,15 @@ nav {
 }
 
 #main-logo {
-  width: 30%;
-  margin: auto;
-  align-items: center;
-  text-align: center;
-  position: absolute;
+  width: 40%;
   display: block;
-  top: 40%;
-  left: 35%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 #footer {
@@ -52,20 +53,16 @@ nav {
   padding: 30px;
 }
 
-.trust {
-  top: 50%;
-}
-
 #trust {
   font-family: futura-pt, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 20px;
+  font-size: 1rem;
   text-align: center;
   padding: 20px;
   width: 100%;
-  height: auto;
-  margin-top: 20%;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 button {
@@ -102,8 +99,8 @@ button {
 }
 
 .roosevelt {
-  height: 20rem;
-  margin-top: 5rem;
+  height: 10rem;
+  margin-top: 2rem;
 }
 
 #intro {
@@ -182,7 +179,7 @@ button {
   font-family: futura-pt, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  color: black;
   text-align: center;
   letter-spacing: 1px;
   text-align: center;
@@ -194,7 +191,7 @@ button {
   font-family: futura-pt, sans-serif;
   font-size: 16px;
   font-weight: bold;
-  color: white;
+  color: black;
   text-align: left;
   letter-spacing: 1px;
   text-align: center;
@@ -206,7 +203,7 @@ button {
   text-align: center;
   font-family: futura-pt, sans-serif;
   font-size: 16px;
-  color: white;
+  color: black;
   letter-spacing: 1px;
 }
 
@@ -214,7 +211,7 @@ button {
   padding: 0px 0px 0 20px;
   font-family: futura-pt, sans-serif;
   font-size: 14px;
-  color: white;
+  color: black;
   letter-spacing: 1px;
   text-align: left;
 
@@ -224,7 +221,7 @@ button {
   padding: 0px 75px 0 0;
   font-family: futura-pt, sans-serif;
   font-size: 14px;
-  color: white;
+  color: black;
   letter-spacing: 1px;
   text-align: center;
 
@@ -341,7 +338,7 @@ button {
   align-items: center;
   align-content: center;
   font-family: futura-pt, sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: #faaf40;
   height: 20rem;
   padding: 2rem;
@@ -364,297 +361,13 @@ button {
   margin-top: 5px;
 }
 
-#basedin {
-  
-}
-
 #contact-links {
   font-size: 25px;
   color: #faaf40;
   margin-top: 15px;
 }
 
-.links {
-  
-}
-
-@media only screen and (min-width: 460px) {
-
-nav {
-  font-family: futura-pt, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-  font-size: 18px;
-  height: 50px;
-  position: relative;
-}
-
-.navbar-brand {
-  font-family: futura-pt, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-  font-size: 20px;
-  line-height: 3rem;
-}
-
-.nav-link {
-  color: black;
-}
-
-.nav-link a:hover {
-  color:#faaf40;
-}
-
-#navbarDropdown:hover {
-  color: #faaf40;
-}
-
-#timmailto {
-  background-color: #faaf40 !important;
-  color: white;
-  font-size: 25px;
-  border: none !important;
-}
-
-#main-logo {
-  width: 25%;
-  margin: auto;
-  align-items: center;
-  text-align: center;
-  position: absolute;
-  display: block;
-  top: 40%;
-  left: 40%;
-}
-
-#footer {
-  height: 100px;
-  padding: 30px;
-}
-
-.trust {
-  top: 50%;
-}
-
-#trust {
-  font-family: futura-pt, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 30px;
-  text-align: center;
-  padding: 20px;
-  width: 100%;
-  height: auto;
-  margin-bottom: 30px;
-  margin-top: 20%;
-}
-
-button {
-  background-color: #faaf40;
-}
-
-/* INTRO SECTION */
-
-#intro-head {
-  padding: 50px;
-  margin-top: 30px;
-  font-family: futura-pt, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-#tr-quote {
-  text-align: left;
-  font-family: futura-pt, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 30px;
-  margin: 20px 80px 0 0px;
-}
-
-#theo {
-  float: right;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: lighter;
-  font-style: italic;
-  margin: -30px 75px 70px 0;
-  padding-right: 30px;
-}
-
-#intro {
-  width: 100%;
-  margin: 0 auto;
-}
-
-#tim {
-  width: 100%;
-  height: auto;
-}
-
-#tim-stand {
-  height: auto;
-  width: 100%;
-}
-
-#bio {
-  width: 100%;
-  margin: 20px 0 0 0;
-  text-align: left;
-  text-justify: inter-character;
-  font-family: futura-pt, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  color: black;
-  line-height: 1.25rem;
-  letter-spacing: px;
-}
-
-/* TESTIMONIALS */
-
-.testimonials {
-  background-color: white;
-}
-
-#test-contain {
-  margin: 0 auto;
-}
-
-#test-img {
-  width: 150px;
-  height: 150px;
-  margin: 50px 0 0 0;
-  border-radius: 15px;
-}
-
-#test-img-s {
-  width: 200px;
-  height: 200px;
-  margin: 30px 10px 0 0;
-}
-
-#test-name {
-  margin-top: 10px;
-  width: 200px;
-  padding: 0 40px 0 0px;
-  font-family: futura-pt, sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
-#test-name-s {
-  margin-top: 10px;
-  width: 200px;
-  padding: 0 0 0 0px;
-  font-family: futura-pt, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  color: white;
-  text-align: left;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
-#test-role {
-  width: 60%;
-  float: left;
-  padding: 0px 90px 0 0px;
-  text-align: center;
-  font-family: futura-pt, sans-serif;
-  font-size: 12px;
-  color: white;
-  letter-spacing: 1px;
-
-}
-
-#test-role-s {
-  width: 250px;
-  padding: 0px 0px 0 0;
-  font-family: futura-pt, sans-serif;
-  font-size: 12px;
-  color: white;
-  letter-spacing: 1px;
-  text-align: left;
-
-}
-#test-role-facapp {
-  width: 250px;
-  padding: 0px 75px 0 0;
-  font-family: futura-pt, sans-serif;
-  font-size: 14px;
-  color: white;
-  letter-spacing: 1px;
-  text-align: center;
-
-}
-
-#test-quote {
-  float: right;
-  width: 100%;
-  padding: 5px;
-  font-family: futura-pt, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-  line-height: 1.25rem;
-  margin-top: 10px;
-}
-
-#test-head {
-  text-align: center;
-  font-family: futura-pt, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 50px;
-  margin: 20px 0 0 0;
-  padding: 20px;
-}
-
-#test-light {
-  height: 75px;
-  display: inline-block;
-  margin-top: 40px;
-}
-
-#spacer {
-  height: 100px;
-}
-
-
-/* FOOTER */
-
-.footer {
-  height: 200px;
-  font-family: futura-pt, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 18px;
-  margin-top: 25px;
-}
-
-#basedin {
-  margin-left: 1rem;
-}
-
-#contact-links {
-  font-size: 40px;
-  color: #faaf40;
-}
-
-.links {
-  margin-left: 1rem;
-}
-}
-
-@media only screen and (min-width:760px) {
+@media only screen and (min-width:768px) {
 
   nav {
       font-family: futura-pt, sans-serif;
@@ -690,37 +403,9 @@ button {
       border: none !important;
     }
   
-    #main-logo {
-      width: 25%;
-      margin: auto;
-      align-items: center;
-      text-align: center;
-      position: absolute;
-      display: block;
-      top: 40%;
-      left: 40%;
-    }
-  
     #footer {
       height: 100px;
       padding: 30px;
-    }
-  
-    .trust {
-      top: 50%;
-    }
-  
-    #trust {
-      font-family: futura-pt, sans-serif;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 40px;
-      text-align: center;
-      padding: 20px;
-      width: 100%;
-      height: auto;
-      margin-bottom: 30px;
-      margin-top: 20%;
     }
   
     button {
@@ -784,6 +469,35 @@ button {
       line-height: 1.25rem;
       letter-spacing: px;
     }
+
+    #trust {
+      font-family: futura-pt, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 2rem;
+      text-align: center;
+      padding: 20px;
+      width: 100%;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .contact-me {
+      margin-top: 3rem;
+      justify-content: left;
+      align-items: center;
+      align-content: center;
+      font-family: futura-pt, sans-serif;
+      font-size: 2rem;
+      background-color: #faaf40;
+      height: 20rem;
+      padding: 2rem;
+    }
+    
+    #contact-link {
+      margin-top: 2rem !important;
+      color: black;
+    }
   
     /* TESTIMONIALS */
   
@@ -815,7 +529,7 @@ button {
       font-family: futura-pt, sans-serif;
       font-size: 20px;
       font-weight: bold;
-      color: white;
+      color: black;
       text-align: center;
       letter-spacing: 1px;
       text-align: center;
@@ -828,7 +542,7 @@ button {
       font-family: futura-pt, sans-serif;
       font-size: 18px;
       font-weight: bold;
-      color: white;
+      color: black;
       text-align: center;
       letter-spacing: 1px;
       text-align: center;
@@ -841,7 +555,7 @@ button {
       text-align: center;
       font-family: futura-pt, sans-serif;
       font-size: 14px;
-      color: white;
+      color: black;
       letter-spacing: 1px;
   
     }
@@ -851,7 +565,7 @@ button {
       padding: 0px 0px 0 0;
       font-family: futura-pt, sans-serif;
       font-size: 12px;
-      color: white;
+      color: black;
       letter-spacing: 1px;
       text-align: center;
   
@@ -861,7 +575,7 @@ button {
       padding: 0px 0px 0 0;
       font-family: futura-pt, sans-serif;
       font-size: 14px;
-      color: white;
+      color: black;
       letter-spacing: 1px;
       text-align: center;
   
@@ -963,37 +677,9 @@ button {
       border: none !important;
     }
   
-    #main-logo {
-      width: 25%;
-      margin: auto;
-      align-items: center;
-      text-align: center;
-      position: absolute;
-      display: block;
-      top: 40%;
-      left: 40%;
-    }
-  
     #footer {
       height: 100px;
       padding: 30px;
-    }
-  
-    .trust {
-      top: 50%;
-    }
-  
-    #trust {
-      font-family: futura-pt, sans-serif;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 45px;
-      text-align: center;
-      padding: 20px;
-      width: 100%;
-      height: auto;
-      margin-bottom: 30px;
-      margin-top: 20%;
     }
   
     button {
@@ -1094,7 +780,7 @@ button {
       font-family: futura-pt, sans-serif;
       font-size: 16px;
       font-weight: bold;
-      color: white;
+      color: black;
       text-align: center;
       letter-spacing: 1px;
       text-align: center;
@@ -1106,7 +792,7 @@ button {
       padding: 0px 45px 0 0;
       font-family: futura-pt, sans-serif;
       font-size: 14px;
-      color: white;
+      color: black;
       letter-spacing: 1px;
       text-align: center;
   
@@ -1120,7 +806,7 @@ button {
       padding: 0px 5px 0 5px;
       font-family: futura-pt, sans-serif;
       font-size: 12px;
-      color: white;
+      color: black;
       letter-spacing: 1px;
       margin-left: -35px;
     }
@@ -1129,7 +815,7 @@ button {
       padding: 0px 0px 0 0;
       font-family: futura-pt, sans-serif;
       font-size: 12px;
-      color: white;
+      color: black;
       letter-spacing: 1px;
       margin-left: -45px;
       text-align: center;
@@ -1234,37 +920,9 @@ button {
         border: none !important;
       }
     
-      #main-logo {
-        width: 25%;
-        margin: auto;
-        align-items: center;
-        text-align: center;
-        position: absolute;
-        display: block;
-        top: 60%;
-        left: 35%;
-      }
-    
       #footer {
         height: 100px;
         padding: 30px;
-      }
-    
-      .trust {
-        top: 50%;
-      }
-    
-      #trust {
-        font-family: futura-pt, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 40px;
-        text-align: center;
-        padding: 20px;
-        width: 100%;
-        height: auto;
-        margin-bottom: 30px;
-        margin-top: 25%;
       }
     
       button {
@@ -1361,7 +1019,7 @@ button {
         font-family: futura-pt, sans-serif;
         font-size: 20px;
         font-weight: bold;
-        color: white;
+        color: black;
         text-align: center;
         letter-spacing: 1px;
       }
@@ -1372,7 +1030,7 @@ button {
         padding: 0px 45px 0 0;
         font-family: futura-pt, sans-serif;
         font-size: 20px;
-        color: white;
+        color: black;
         letter-spacing: 1px;
         text-align: center;
       }
@@ -1381,7 +1039,7 @@ button {
         padding: 0px 0px 0 0;
         font-family: futura-pt, sans-serif;
         font-size: 18px;
-        color: white;
+        color: black;
         letter-spacing: 1px;
         justify-content: center;
         margin-left: 30px;
@@ -1391,7 +1049,7 @@ button {
         padding: 0px 0px 0 0;
         font-family: futura-pt, sans-serif;
         font-size: 16px;
-        color: white;
+        color: black;
         letter-spacing: 1px;
         justify-content: center;
         margin-left: 10px;
@@ -1495,37 +1153,9 @@ nav {
     border: none !important;
   }
 
-  #main-logo {
-    width: 25%;
-    margin: auto;
-    align-items: center;
-    text-align: center;
-    position: absolute;
-    display: block;
-    top: 60%;
-    left: 35%;
-  }
-
   #footer {
     height: 100px;
     padding: 30px;
-  }
-
-  .trust {
-    top: 50%;
-  }
-
-  #trust {
-    font-family: futura-pt, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 40px;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-    height: auto;
-    margin-bottom: 30px;
-    margin-top: 25%;
   }
 
   button {
@@ -1622,7 +1252,7 @@ nav {
     font-family: futura-pt, sans-serif;
     font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: black;
     text-align: center;
     letter-spacing: 1px;
   }
@@ -1633,7 +1263,7 @@ nav {
     padding: 0px 45px 0 0;
     font-family: futura-pt, sans-serif;
     font-size: 20px;
-    color: white;
+    color: black;
     letter-spacing: 1px;
     text-align: center;
   }
@@ -1642,7 +1272,7 @@ nav {
     padding: 0px 0px 0 0;
     font-family: futura-pt, sans-serif;
     font-size: 18px;
-    color: white;
+    color: black;
     letter-spacing: 1px;
     justify-content: center;
     margin-left: 50px;
@@ -1652,7 +1282,7 @@ nav {
     padding: 0px 0px 0 0;
     font-family: futura-pt, sans-serif;
     font-size: 16px;
-    color: white;
+    color: black;
     letter-spacing: 1px;
     justify-content: center;
     margin-left: 30px;
