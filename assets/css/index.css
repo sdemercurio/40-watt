@@ -745,6 +745,33 @@ button {
   }
 
 @media only screen and (min-width:992px) {
+
+  #intro {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #tim {
+    float: left;
+    width: 50%;
+    height: auto;
+  }
+
+  #bio {
+    float: right;
+    width: 48% !important;
+    margin: 0 0 0 0;
+    text-align: justify;
+    text-justify: inter-character;
+    font-family: futura-pt, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    line-height: 1.25rem;
+    letter-spacing: .5px;
+  }
+
   .services {
     margin-top: 5rem;
     margin-bottom: 5rem;
