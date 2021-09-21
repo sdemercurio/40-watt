@@ -273,6 +273,10 @@ button {
 .services {
   margin-top: 5rem;
   margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  list-style: none;
 }
 
 .service-header {
@@ -366,7 +370,52 @@ button {
   margin-top: 15px;
 }
 
-@media only screen and (min-width:768px) {
+.erica-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    }
+
+    .small-videos {
+      display: flex;
+      flex-direction: column;
+      padding-top: 20px;
+      width: 100%;
+    }
+
+    .small {
+      width: 100%;
+      height: 300px;
+    }
+
+    .erica-vid {
+      font-family: futura-pt, sans-serif;
+      font-weight: bold;
+      font-size: 2.5em;
+    }
+
+    .erica-vid-sub {
+      font-family: futura-pt, sans-serif;
+      font-size: 1.5em;
+      padding: 1% 0 2% 0;
+    }
+
+    .reputation {
+      margin: 0 5px 0 5px;
+    }
+
+    .card-text {
+      font-family: futura-pt, sans-serif;
+      font-size: 1.5em;
+      text-align: center;
+    }
+
+    .video-card {
+      margin-top: 5%;
+    }
+
+
+@media only screen and (min-width:769px) {
 
   nav {
       font-family: futura-pt, sans-serif;
@@ -400,6 +449,13 @@ button {
       color: white;
       font-size: 25px;
       border: none !important;
+    }
+
+    .services {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      display: flex;
+      flex-direction: row;
     }
   
     #footer {
@@ -642,479 +698,104 @@ button {
     .links {
       margin-left: 2rem;
     }
-  }
 
-@media only screen and (min-width:990px) {
+    .erica-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    }
 
-  nav {
-      font-family: futura-pt, sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      color: black;
-      font-size: 18px;
-      height: 50px;
-      position: relative;
+    .small-videos {
+      display: flex;
+      flex-direction: row;
+      padding-top: 10px;
+      justify-content: space-evenly;
+      align-items: stretch;
     }
-  
-    .navbar-brand {
-      font-family: futura-pt, sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      color: black;
-      font-size: 30px;
-      line-height: 3rem;
-    }
-  
-    .nav-link {
-      color: black;
-    }
-  
-    #navbarDropdown:hover {
-      color: #faaf40;
-    }
-  
-    #timmailto {
-      background-color: #faaf40 !important;
-      color: white;
-      font-size: 25px;
-      border: none !important;
-    }
-  
-    #footer {
-      height: 100px;
-      padding: 30px;
-    }
-  
-    button {
-      background-color: #faaf40;
-    }
-  
-    /* INTRO SECTION */
-  
-    #intro-head {
-      padding: 50px;
-      margin-top: 30px;
-      font-family: futura-pt, sans-serif;
-      font-weight: 700;
-      font-style: normal;
-    }
-  
-    #tr-quote {
-      text-align: left;
-      font-family: futura-pt, sans-serif;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 40px;
+
+    .small {
       width: 100%;
-    }
-  
-    #theo {
-      float: right;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 20px;
-      font-weight: lighter;
-      font-style: italic;
-      margin: -40px 75px 70px 0;
-      padding-right: 30px;
-    }
-  
-    #intro {
-      width: 100%;
-      margin: 0 auto;
-    }
-  
-    #tim {
-      float: left;
-      width: 50%;
       height: auto;
     }
 
-    #tim-stand {
-      height: auto;
-      width: 100%;
-    }
-  
-    #bio {
-      float: right;
-      width: 48%;
-      margin: 0 0 0 0;
-      text-align: justify;
-      text-justify: inter-character;
+    .erica-vid {
       font-family: futura-pt, sans-serif;
-      font-size: 15px;
-      font-weight: 500;
-      font-style: normal;
-      color: black;
-      line-height: 1.25rem;
-      letter-spacing: .5px;
-    }
-  
-    /* TESTIMONIALS */
-  
-  
-    #test-contain {
-      margin: auto;
-    }
-  
-    #test-img {
-   align-items: center;
-      width: 150px;
-      height: 150px;
-      margin: 30px 0 0 0;
-      border-radius: 15px;
-    }
-  
-    #test-img-s {
- display: inline-block;
-      width: 200px;
-      height: 200px;
-      margin: 30px 10px 0 0;
-    }
-  
-    .test-images {
-      width: 100%;
-      margin-left: 20px;
-    }
-  
-    #test-name {
-      margin-top: 10px;
-      width: 200px;
-      padding: 0 50px 0 0;
-      font-family: futura-pt, sans-serif;
-      font-size: 16px;
       font-weight: bold;
-      color: white;
-      text-align: center;
-      letter-spacing: 1px;
-      text-align: center;
-    }
-  
-    #test-role {
-      width: 100%;
-      float: left;
-      padding: 0px 45px 0 0;
-      font-family: futura-pt, sans-serif;
-      font-size: 14px;
-      color: white;
-      letter-spacing: 1px;
-      text-align: center;
-  
+      font-size: 2.5em;
     }
 
-    #test-name-s {
-      margin: 0 0 10px -35px;
-    }
-  
-    #test-role-s {
-      padding: 0px 5px 0 5px;
+    .erica-vid-sub {
       font-family: futura-pt, sans-serif;
-      font-size: 12px;
-      color: white;
-      letter-spacing: 1px;
-      margin-left: -35px;
+      font-size: 1.5em;
+      padding: 1% 0 2% 0;
     }
-    #test-role-facapp {
-      width: 250px;
-      padding: 0px 0px 0 0;
+
+    .video-text {
       font-family: futura-pt, sans-serif;
-      font-size: 12px;
-      color: white;
-      letter-spacing: 1px;
-      margin-left: -45px;
-      text-align: center;
-  
-    }
-  
-    #test-quote {
-      float: right;
-      width: 100%;
-      margin: 35px 15px 0px 0px;
-      font-family: futura-pt, sans-serif;
-      font-size: 18px;
-      font-weight: 400;
-      font-style: normal;
-      color: black;
-      text-align: justify;
-      text-justify: inter-character;
-      line-height: 1.25rem;
-    }
-  
-    #test-head {
-      text-align: center;
-      font-family: futura-pt, sans-serif;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 50px;
-      margin: 20px 0 0 0;
-      padding: 20px;
-    }
-  
-    #test-light {
-      height: 75px;
-      display: inline-block;
-      margin-top: 40px;
-    }
-  
-    #spacer {
+      font-size: 1.5em;
+      text-align: left;
       height: 100px;
     }
- 
-  
-    /* FOOTER */
-  
-    .footer {
-      height: 200px;
-      font-family: futura-pt, sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      font-size: 25px;
-      background-color: white;
 
-      padding: 20px;
+    .card {
+      margin-top: 5%;
     }
-
-    #footer-text {
-      margin-bottom: 15px;
-    }
-  
-    #contact-links {
-      display: inline-block;
-      font-size: 45px;
-      color: #faaf40;
-    }
- .links {
-   margin-left: -70%;
- }
   }
 
-  @media only screen and (min-width:1000px) {
+@media only screen and (min-width:992px) {
+  .services {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+  }
 
-    nav {
-        font-family: futura-pt, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        color: black;
-        font-size: 18px;
-        height: 100px;
-        position: relative;
-      }
-    
-      .navbar-brand {
-        font-family: futura-pt, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        color: black;
-        font-size: 35px;
-        line-height: 3rem;
-      }
-    
-      .nav-link {
-        color: black;
-      }
-    
-      #navbarDropdown:hover {
-        color: #faaf40;
-      }
-    
-      #timmailto {
-        background-color: #faaf40 !important;
-        color: white;
-        font-size: 25px;
-        border: none !important;
-      }
-    
-      #footer {
-        height: 100px;
-        padding: 30px;
-      }
-    
-      button {
-        background-color: #faaf40;
-      }
-    
-      /* INTRO SECTION */
-    
-      #intro-head {
-        padding: 50px;
-        margin-top: 30px;
-        font-family: futura-pt, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-      }
-    
-      #tr-quote {
-        text-align: left;
-        font-family: futura-pt, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 40px;
-      
-      }
-    
-      #theo {
-        float: right;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 22px;
-        font-weight: lighter;
-        font-style: italic;
-        margin: -30px 75px 70px 0;
-      }
-    
-      #intro {
-        width: 100%;
-        margin: 0 auto;
-      }
-    
-      #tim-stand {
-        height: auto;
-        width: 100%;
-      }
-    
-      #tim {
-        float: left;
-        width: 50%;
-        height: auto;
-      }
-    
-      #bio {
-        float: right;
-        width: 48%;
-        margin: 0 0 0 0;
-        text-align: justify;
-        text-justify: inter-character;
-        font-family: futura-pt, sans-serif;
-        font-size: 20px;
-        font-weight: 500;
-        font-style: normal;
-        color: black;
-        line-height: 1.55rem;
-        letter-spacing: 1px;
-      }
-    
-      /* TESTIMONIALS */
-    
-     
-    
-      #test-contain {
-        margin: auto;
-      }
-    
-      #test-img {
-        vertical-align: baseline;
-        display: inline-block;
-        width: 200px;
-        height: 200px;
-        margin: 50px 20px 0 30px;
-      }
-    
-      #test-img-s {
-        vertical-align: baseline;
-        display: inline-block;
-        width: 200px;
-        height: 200px;
-        margin: 30px 10px 0 0;
-      }
-    
-      #test-name {
-        width: 200px;
-        padding: 0px 10px 0px 10px;
-       margin-left: 30px;
-        font-family: futura-pt, sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        color: white;
-        text-align: center;
-        letter-spacing: 1px;
-      }
-    
-      #test-role {
-        width: 250px;
-        margin-left: 30px;
-        padding: 0px 45px 0 0;
-        font-family: futura-pt, sans-serif;
-        font-size: 20px;
-        color: white;
-        letter-spacing: 1px;
-        text-align: center;
-      }
-    
-      #test-name-s {
-        padding: 0px 0px 0 0;
-        font-family: futura-pt, sans-serif;
-        font-size: 18px;
-        color: white;
-        letter-spacing: 1px;
-        justify-content: center;
-        margin-left: 30px;
-      }
-    
-      #test-role-s {
-        padding: 0px 0px 0 0;
-        font-family: futura-pt, sans-serif;
-        font-size: 16px;
-        color: white;
-        letter-spacing: 1px;
-        justify-content: center;
-        margin-left: 10px;
-      }
-    
-      #test-quote {
-        float: right;
-        justify-content: left;
-        width: 100%;
-        margin: 60px 50px 0 20px;
-        padding-left: 25px;
-        font-family: futura-pt, sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-        font-style: normal;
-        color: black;
-        line-height: 1.5rem;
-      }
-    
-      #test-head {
-        text-align: center;
-        font-family: futura-pt, sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 50px;
-        margin: 20px 0 0 0;
-        padding: 20px;
-      }
-    
-      #test-light {
-        height: 100px;
-        display: inline-block;
-        margin-top: 60px;
-      }
-    
-      #spacer {
-        height: 100px;
-      }
-    
+  
+  .small-vid-text {
+      height: 30%;
+  }
 
-    
-      /* FOOTER */
-    
-      .footer {
-        height: 200px;
-        font-family: futura-pt, sans-serif;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 30px;
-        margin-top: 25px;
-      }
-    
-      #basedin {
-        margin-left: 8rem;
-      }
-    
-      #contact-links {
-        font-size: 40px;
-        color: #faaf40;
-      }
-    
-      .links {
-        margin-left: 8rem;
-      }
+  #middle-vid {
+    margin-top: 5px;
+  }
+
+  #bio {
+    width: 100%;
+    margin: 20px 0 0 0;
+    text-align: left;
+    text-justify: inter-character;
+    font-family: futura-pt, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    line-height: 1.25rem;
+    letter-spacing: px;
+  }
+}
+
+  @media only screen and (min-width:1200px) {
+
+    .yellow-rule {
+      height: 1rem;
+      background-color: #faaf40;
+      margin-top: 12rem;
     }
+    .small-videos {
+      display: flex;
+      flex-direction: row;
+      padding-top: 10px;
+      justify-content: space-evenly;
+    }
+
+    .small {
+      width: 98%;
+      height: 250px;
+      
+    }
+
+    .reputation {
+      width: 100%;
+      height: 250px;
+    }
+  }
