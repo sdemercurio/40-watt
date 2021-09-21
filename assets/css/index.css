@@ -608,22 +608,21 @@ button {
     }
   
     #test-role {
-      width: 60%;
-      float: left;
-      padding: 0px 50px 0 0px;
+      width: 100%;
+      padding: 0px 2rem 0 0px;
       text-align: center;
       font-family: futura-pt, sans-serif;
-      font-size: 14px;
+      font-size: 18px;
       color: white;
       letter-spacing: 1px;
-  
+      margin: 0 auto;
     }
   
     #test-role-s {
       width: 250px;
       padding: 0px 0px 0 0;
       font-family: futura-pt, sans-serif;
-      font-size: 12px;
+      font-size: 16px;
       color: white;
       letter-spacing: 1px;
       text-align: center;
@@ -643,14 +642,15 @@ button {
     #test-quote {
       float: right;
       width: 100%;
-      padding: 5px;
+      padding: 5rem;
       font-family: futura-pt, sans-serif;
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 400;
       font-style: normal;
       color: black;
       line-height: 1.25rem;
       margin-top: 10px;
+      align-content: center;
     }
   
     #test-head {
