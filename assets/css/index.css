@@ -52,6 +52,7 @@ nav {
 #footer {
   height: 100px;
   padding: 30px;
+  background-color: white;
 }
 
 #trust {
@@ -233,11 +234,11 @@ button {
   width: 100%;
   padding: 5px;
   font-family: futura-pt, sans-serif;
-  font-size: 16px;
+  font-size: 1.5em;
   font-weight: 400;
   font-style: normal;
   color: black;
-  line-height: 1.25rem;
+  line-height: 1.5rem;
   margin-top: 10px;
   text-align: left;
   text-justify: inter-character;
@@ -294,6 +295,7 @@ button {
 .card {
   align-items: center;
   align-content: center;
+  text-align: left;
   font-family: futura-pt, sans-serif;
   display: flex;
   flex-grow: 1;
@@ -307,13 +309,22 @@ button {
   margin-bottom: 2rem;
 }
 
-.service-text {
+.card-text {
   font-size: 14pt;
   line-height: 1.5rem;
+
+}
+
+.service-text {
+  text-align: left !important;
 }
 
 .service-text > li {
+  margin-top: 5%;
   margin-left: 2rem;
+  font-size: 1.5em;
+  text-align: left;
+
 }
 
 .service-bulb {
@@ -363,12 +374,29 @@ button {
   font-style: normal;
   font-size: 18px;
   margin-top: 5px;
+  background-color: white;
+  padding: 5%;
 }
 
 #contact-links {
   font-size: 25px;
   color: #faaf40;
   margin-top: 15px;
+}
+
+#footer-text {
+text-align: center;
+font-size: 2em;
+}
+
+#based-in {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 1em;
+}
+
+.links {
+  text-align: center;
 }
 
 .erica-video {
@@ -648,12 +676,11 @@ button {
       width: 100%;
       padding: 5rem;
       font-family: futura-pt, sans-serif;
-      font-size: 18px;
+      font-size: 2em;
       font-weight: 400;
       font-style: normal;
       color: black;
-      line-height: 1.25rem;
-      margin-top: 10px;
+      line-height: 2rem;
       align-content: center;
     }
   
@@ -688,10 +715,17 @@ button {
       font-style: normal;
       font-size: 20px;
       margin-top: 25px;
+      justify-content: center;
     }
   
     #basedin {
       margin-left: 2rem;
+      margin: 0 auto;
+      font-size: 2em;
+    }
+
+    #footer-text {
+      font-size: 2em;
     }
   
     #contact-links {
@@ -822,6 +856,14 @@ button {
     color: black;
     line-height: 1.25rem;
     letter-spacing: px;
+  }
+
+  .footer {
+    padding: 5%;
+  }
+
+  #footer-text {
+    font-size: 1.25em;
   }
 }
 
