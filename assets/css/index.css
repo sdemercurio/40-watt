@@ -38,15 +38,11 @@ nav {
 }
 
 #main-logo {
-  width: 40%;
+  width: 15%;
   display: block;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
-
+  padding-top: 5%;
 }
 
 #footer {
@@ -70,6 +66,11 @@ nav {
 button {
   background-color: #faaf40;
 }
+
+#landing-img {
+  padding-top: 5%;
+}
+
 
 /* INTRO SECTION */
 
@@ -108,6 +109,7 @@ button {
 #intro {
   width: 100%;
   margin: 0 auto;
+  padding-top: 15%;
 }
 
 #tim {
@@ -161,72 +163,33 @@ button {
   margin: 0 auto;
 }
 
-#test-img {
-  width: 100%;
-  height: auto;
-  margin: 50px 0 0 0;
-  border-radius: 15px;
-  border-color: black;
+.test-row {
+  display:flex;
+  flex-direction: column;
+  margin-top: 15%;
 }
 
-#test-img-s {
-  width: 200px;
-  height: 200px;
-  margin: 30px 10px 0 0;
+.card {
+  background-color: #faaf40 !important;
+  border: none;
 }
 
-#test-name {
-  margin: 10px 0 10px 0;
-  padding: 0 0px 0 0px;
+
+.test-name {
   font-family: futura-pt, sans-serif;
   font-size: 20px;
   font-weight: bold;
   color: white;
   text-align: center;
   letter-spacing: 1px;
-  text-align: center;
 }
 
-#test-name-s {
-  margin-top: 10px;
-  padding: 0 0 0 0px;
+.test-role {
   font-family: futura-pt, sans-serif;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 20px;
   color: white;
-  text-align: left;
-  letter-spacing: 1px;
   text-align: center;
-}
-
-#test-role {
-  margin-bottom: 5px;
-  padding: 0px 0px 0 0px;
-  text-align: center;
-  font-family: futura-pt, sans-serif;
-  font-size: 16px;
-  color: white;
   letter-spacing: 1px;
-}
-
-#test-role-s {
-  padding: 0px 0px 0 20px;
-  font-family: futura-pt, sans-serif;
-  font-size: 14px;
-  color: white;
-  letter-spacing: 1px;
-  text-align: left;
-
-}
-#test-role-facapp {
-  width: 250px;
-  padding: 0px 75px 0 0;
-  font-family: futura-pt, sans-serif;
-  font-size: 14px;
-  color: white;
-  letter-spacing: 1px;
-  text-align: center;
-
 }
 
 #test-quote {
@@ -292,7 +255,7 @@ button {
   margin-bottom: -2rem;
 }
 
-.card {
+.card-service {
   align-items: center;
   align-content: center;
   text-align: left;
@@ -594,111 +557,18 @@ font-size: 2em;
     .testimonials {
       background-color: #faaf40;
     }
+
+    .test-row {
+      display:flex;
+      flex-direction: row;
+    }
   
     #test-contain {
       margin: 0 auto;
     }
   
-    #test-img {
-      width: 250px;
-      height: 250px;
-      margin: 50px 0 0 0;
-      border-radius: 15px;
-      align-content: center;
-      
-    }
-  
-    #test-img-s {
-      width: 200px;
-      height: 200px;
-      margin: 30px 10px 0 0;
-    }
-  
-    #test-name {
-      margin-top: 10px;
-      width: 200px;
-      padding: 0 0 0 40px;
-      font-family: futura-pt, sans-serif;
-      font-size: 20px;
-      font-weight: bold;
-      color: white;
-      text-align: center;
-      letter-spacing: 1px;
-      text-align: center;
-    }
-
-    #test-name-s {
-      margin-top: 10px;
-      width: 200px;
-      padding: 0 0 0 40px;
-      font-family: futura-pt, sans-serif;
-      font-size: 18px;
-      font-weight: bold;
-      color: white;
-      text-align: center;
-      letter-spacing: 1px;
-      text-align: center;
-    }
-  
-    #test-role {
-      width: 100%;
-      padding: 0px 2rem 0 0px;
-      text-align: center;
-      font-family: futura-pt, sans-serif;
-      font-size: 18px;
-      color: white;
-      letter-spacing: 1px;
-      margin: 0 auto;
-    }
-  
-    #test-role-s {
-      width: 250px;
-      padding: 0px 0px 0 0;
-      font-family: futura-pt, sans-serif;
-      font-size: 16px;
-      color: white;
-      letter-spacing: 1px;
-      text-align: center;
-  
-    }
-    #test-role-facapp {
-      width: 250px;
-      padding: 0px 0px 0 0;
-      font-family: futura-pt, sans-serif;
-      font-size: 14px;
-      color: white;
-      letter-spacing: 1px;
-      text-align: center;
-  
-    }
-  
     #test-quote {
-      float: right;
-      width: 100%;
-      padding: 5rem;
-      font-family: futura-pt, sans-serif;
-      font-size: 30px;
-      font-weight: 400;
-      font-style: normal;
-      color: black;
-      line-height: 2rem;
-      align-content: center;
-    }
-  
-    #test-head {
-      text-align: center;
-      font-family: futura-pt, sans-serif;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 50px;
-      margin: 20px 0 0 0;
-      padding: 20px;
-    }
-  
-    #test-light {
-      height: 75px;
-      display: inline-block;
-      margin-top: 40px;
+      padding-top: 10%;
     }
   
     #spacer {
@@ -897,34 +767,5 @@ font-size: 2em;
       margin-top: 0;
     }
 
-    #test-role {
-      width: 100%;
-      padding: 0px 9rem 0 0px;
-      text-align: center;
-      font-family: futura-pt, sans-serif;
-      font-size: 18px;
-      color: white;
-      letter-spacing: 1px;
-    }
-  
-    #test-role-s {
-      width: 250px;
-      padding: 0px 0px 0 0;
-      font-family: futura-pt, sans-serif;
-      font-size: 16px;
-      color: white;
-      letter-spacing: 1px;
-      text-align: center;
-  
-    }
-    #test-role-facapp {
-      width: 250px;
-      padding: 0px 0px 0 0;
-      font-family: futura-pt, sans-serif;
-      font-size: 14px;
-      color: white;
-      letter-spacing: 1px;
-      text-align: center;
-  
-    }
+    
   }
