@@ -51,18 +51,6 @@ nav {
   background-color: white;
 }
 
-#trust {
-  font-family: futura-pt, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 1rem;
-  text-align: center;
-  padding: 20px;
-  width: 100%;
-  margin-top: 1rem;
-  margin-bottom: 3rem;
-}
-
 button {
   background-color: #faaf40;
 }
@@ -73,38 +61,6 @@ button {
 
 
 /* INTRO SECTION */
-
-#intro-head {
-  padding: 50px;
-  margin-top: 30px;
-  font-family: futura-pt, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-#tr-quote {
-  text-align: left;
-  font-family: futura-pt, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 18px;
-
-}
-
-#theo {
-  float: right;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: lighter;
-  font-style: italic;
-  margin: -30px 75px 70px 0;
-  padding-right: 30px;
-}
-
-.roosevelt {
-  height: 10rem;
-  margin-top: 2rem;
-}
 
 #intro {
   width: 100%;
@@ -117,29 +73,23 @@ button {
   height: auto;
 }
 
-#tim-stand {
-  height: auto;
-  width: 100%;
-}
-
 #bio {
   width: 100%;
-  margin: 20px 0 0 0;
   text-align: left;
   text-justify: inter-character;
   font-family: futura-pt, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   font-style: normal;
   color: black;
-  line-height: 1.25rem;
-  letter-spacing: px;
+  line-height: 28px;
+  letter-spacing: 1px;
 }
 
 .linkedin {
   display: flex;
   flex-direction: row;
-  
+  margin: 20px 0;
 }
 
 .linkedin > a {
@@ -157,6 +107,7 @@ button {
 
 .testimonials {
   background-color: #faaf40;
+ 
 }
 
 #test-contain {
@@ -172,7 +123,9 @@ button {
 .card {
   background-color: #faaf40 !important;
   border: none;
+  margin: auto;
 }
+
 
 
 .test-name {
@@ -201,8 +154,7 @@ button {
   font-weight: 400;
   font-style: normal;
   color: black;
-  line-height: 1.5rem;
-  margin-top: 10px;
+  line-height: 30px;
   text-align: left;
   text-justify: inter-character;
 }
@@ -235,6 +187,11 @@ button {
 
 /* SERVICES */
 
+li::marker {
+  color: #faaf40;
+
+}
+
 .services {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -244,15 +201,14 @@ button {
   list-style: none;
 }
 
-.service-header {
+.service-head {
   text-align: center;
   font-family: futura-pt, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
-  margin: 20px 0 0 0;
+  margin: 10px 0 20px 0;
   padding: 20px;
-  margin-bottom: -2rem;
 }
 
 .card-service {
@@ -266,11 +222,6 @@ button {
   border: none;
 }
 
-.service-head {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
 
 .card-text {
   font-size: 14pt;
@@ -280,7 +231,7 @@ button {
 
 .service-text {
   text-align: left !important;
-  
+  line-height: 30px;
 }
 
 .service-text > li {
@@ -288,7 +239,7 @@ button {
   margin-left: 2rem;
   font-size: 20px;
   text-align: left;
-
+  line-height: 25px;
 }
 
 .service-bulb {
@@ -321,6 +272,7 @@ button {
   font-size: 1.5rem;
   height: 20rem;
   padding: 2rem;
+  line-height: 30px;
 }
 
 #contact-link {
@@ -336,7 +288,6 @@ button {
   font-family: futura-pt, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 18px;
   margin-top: 5px;
   background-color: white;
   padding: 5%;
@@ -350,13 +301,14 @@ button {
 
 #footer-text {
 text-align: center;
-font-size: 2em;
+font-size: 20px;
+font-weight: bold;
 }
 
 #based-in {
   text-align: center;
   margin-top: 3%;
-  font-size: 1em;
+  font-size: 20px;
 }
 
 .links {
@@ -374,13 +326,12 @@ font-size: 2em;
     .small-videos {
       display: flex;
       flex-direction: column;
-      padding-top: 20px;
       width: 100%;
     }
 
     .small {
       width: 100%;
-      height: 300px;
+      height: 200px;
     }
 
     .erica-vid {
@@ -389,24 +340,55 @@ font-size: 2em;
       font-size: 2.5em;
     }
 
-    .erica-vid-sub {
+    .video-text {
       font-family: futura-pt, sans-serif;
-      font-size: 1.5em;
-      padding: 1% 0 2% 0;
+      font-weight: bold;
+      font-size: 22px;
+      margin-top: 20px;
     }
 
-    .reputation {
-      margin: 0 5px 0 5px;
+    .erica-vid-sub {
+      font-family: futura-pt, sans-serif;
+      font-size: px;
+      padding: 5%;
     }
 
     .card-text {
       font-family: futura-pt, sans-serif;
-      font-size: 1.5em;
       text-align: center;
     }
 
     .video-card {
-      margin-top: 5%;
+      height: 300px;
+    }
+
+    #middle-vid {
+      margin-top: 25px;
+    }
+
+    .bio-header {
+      font-family: futura-pt, sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 22px;
+      margin: 20px 0 0 0;
+      color:#faaf40;
+      line-height: 24px;
+    }
+
+    #tim-head {
+      color: black;
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    #tim-sub-head {
+      color: black;
+      margin-top: 15px;
+    }
+
+    #sub-sub {
+      margin-top: 10px;
     }
 
 
@@ -464,77 +446,49 @@ font-size: 2em;
   
     /* INTRO SECTION */
   
-    #intro-head {
-      padding: 50px;
-      margin-top: 30px;
-      font-family: futura-pt, sans-serif;
-      font-weight: 700;
-      font-style: normal;
-    }
-  
-    #tr-quote {
-      text-align: left;
-      font-family: futura-pt, sans-serif;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 40px;
-      width: 100%;
-    }
-  
-    #theo {
-      float: right;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size:18px;
-      font-weight: lighter;
-      font-style: italic;
-      margin: -30px 75px 70px 0;
-      padding-right: 30px;
-    }
-  
     #intro {
       width: 100%;
       margin: 0 auto;
     }
   
     #tim {
-      width: 100%;
+      float: left;
+      width: 50%;
       height: auto;
-    }
-
-    #tim-stand {
-      height: auto;
-      width: 100%;
     }
   
     #bio {
-      width: 100%;
-      margin: 20px 0 0 0;
-      text-align: left;
-      text-justify: inter-character;
+      float: right;
+      width: 48% !important;
+      margin: 0 0 0 10px;
       font-family: futura-pt, sans-serif;
-      font-size: 16px;
+      font-size: 17px;
       font-weight: 500;
       font-style: normal;
       color: black;
       line-height: 1.25rem;
-      letter-spacing: px;
+      letter-spacing: 1px;
     }
 
-    #trust {
+    .bio-header {
+      float: right;
+      width: 48% !important;
       font-family: futura-pt, sans-serif;
       font-weight: 700;
       font-style: normal;
-      font-size: 2rem;
-      text-align: center;
-      padding: 20px;
-      width: 100%;
-      margin-top: 3rem;
-      margin-bottom: 3rem;
+      font-size: 18px;
+      margin: 0 0 0 0;
+      color:#faaf40;
     }
 
-    .roosevelt {
-      height: 20rem;
-      margin-top: 6rem;
+    #tim-sub-head {
+      color: black;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    #sub-sub {
+      line-height: 20px;
     }
 
     .contact-me {
@@ -552,6 +506,45 @@ font-size: 2em;
       margin-top: 2rem !important;
       color: black;
     }
+
+    .services {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      list-style: none;
+    }
+
+    .card-service{
+      margin-top: 40px;
+    }
+
+    .service-text {
+      font-size: 20pt;
+      text-align: left !important;
+      line-height: 32px;
+    }
+    
+    .service-text > li {
+      margin-top: 5%;
+      margin-left: 2rem;
+      font-size: 26px;
+      text-align: left;
+      line-height: 18px;
+    }
+
+    #bulb2 {
+  width: 12%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#bulb3 {
+  width: 12%;
+  height: auto;
+  margin-bottom: 15px;
+}
   
     /* TESTIMONIALS */
   
@@ -562,23 +555,35 @@ font-size: 2em;
     .test-row {
       display:flex;
       flex-direction: row;
-      margin-top: 5%;
+      margin-top: 10%;
     }
   
-    #test-contain {
-      margin: 0 auto;
+    .test-name {
+      font-family: futura-pt, sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+      letter-spacing: 1px;
     }
-  
+    
+    .test-role {
+      font-family: futura-pt, sans-serif;
+      font-size: 28px;
+      color: white;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+
     #test-quote {
-      padding-top: 10%;
+      padding: 0 10%;
+      width: 90%;
     }
   
     #spacer {
       height: 100px;
     }
-  
 
-  
     /* FOOTER */
   
     .footer {
@@ -586,19 +591,19 @@ font-size: 2em;
       font-family: futura-pt, sans-serif;
       font-weight: 500;
       font-style: normal;
-      font-size: 20px;
       margin-top: 25px;
       justify-content: center;
     }
   
-    #basedin {
+    #based-in {
       margin-left: 2rem;
       margin: 0 auto;
-      font-size: 2em;
+      font-size: 30px;
     }
 
     #footer-text {
-      font-size: 2em;
+      font-size: 40px;
+      margin-bottom: 15px;
     }
   
     #contact-links {
@@ -618,38 +623,34 @@ font-size: 2em;
 
     .small-videos {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       padding-top: 10px;
-      justify-content: space-evenly;
-      align-items: stretch;
     }
 
     .small {
-      width: 100%;
-      height: auto;
+      width: 90%;
+      height: 100%;
     }
 
     .erica-vid {
       font-family: futura-pt, sans-serif;
       font-weight: bold;
       font-size: 2.5em;
+      line-height: 50px;
     }
 
     .erica-vid-sub {
       font-family: futura-pt, sans-serif;
       font-size: 1.5em;
       padding: 1% 0 2% 0;
+      line-height: 35px;
+      margin-bottom: 25px;
     }
 
     .video-text {
       font-family: futura-pt, sans-serif;
-      font-size: 1.5em;
+      font-size: 24px;
       text-align: left;
-      height: 100px;
-    }
-
-    .card {
-      margin-top: 5%;
     }
   }
 
@@ -664,21 +665,6 @@ font-size: 2em;
     float: left;
     width: 50%;
     height: auto;
-  }
-
-  #bio {
-    float: right;
-    width: 48% !important;
-    margin: 0 0 0 0;
-    text-align: justify;
-    text-justify: inter-character;
-    font-family: futura-pt, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    font-style: normal;
-    color: black;
-    line-height: 1.25rem;
-    letter-spacing: .5px;
   }
 
   .services {
@@ -709,12 +695,34 @@ font-size: 2em;
       height: 30%;
   }
 
-  #middle-vid {
-    margin-top: 5px;
-  }
-
   #first-vid {
     margin-top: 15px;
+  }
+
+
+
+  /* TESTIMONIALS */
+  
+  .testimonials {
+    background-color: #faaf40;
+  }
+
+  .test-row {
+    display:flex;
+    flex-direction: row;
+    margin-top: 10%;
+  }
+
+
+  #test-quote {
+    padding: 0 10%;
+    width: 100%;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  #spacer {
+    height: 100px;
   }
 
   #bio {
@@ -742,6 +750,35 @@ font-size: 2em;
 
   @media only screen and (min-width:1200px) {
 
+    #tim-head {
+      font-size: 75px;
+      padding: 10px 0;
+    }
+
+    #tim-sub-head {
+      font-size: 35px;
+      line-height: 40px;
+    }
+
+    #sub-sub {
+      font-size: 30px;
+      line-height: 30px;
+    }
+
+    #bio {
+      width: 100%;
+      margin: 20px 0 0 0;
+      text-align: left;
+      text-justify: inter-character;
+      font-family: futura-pt, sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      font-style: normal;
+      color: black;
+      line-height: 30px;
+      letter-spacing: px;
+    }
+
     .yellow-rule {
       height: 1rem;
       background-color: #faaf40;
@@ -750,24 +787,68 @@ font-size: 2em;
     .small-videos {
       display: flex;
       flex-direction: row;
-      padding-top: 10px;
+      padding-top: 25px;
       justify-content: space-evenly;
     }
 
     .small {
-      width: 98%;
-      height: 250px;
+      width: 92%;
+      height: 200px;
       
     }
 
-    .reputation {
-      width: 100%;
-      height: 250px;
+    #middle-vid {
+      margin-top: 25px;
     }
 
     #first-vid {
       margin-top: 0;
     }
 
+    .video-text {
+      font-family: futura-pt, sans-serif;
+      font-size: 24px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+
+    .video-text-mid {
+      font-family: futura-pt, sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      text-align: left;
+    }
+
+    .erica-vid-sub {
+      font-size: 30px;
+      padding: 0 20px;
+    }
+
+    .services {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+      list-style: none;
+    }
+  
+    .card-service{
+      margin-top: 40px;
+    }
+  
+    .service-text {
+      font-size: 20pt;
+      text-align: left !important;
+      line-height: 32px;
+    }
+    
+    .service-text > li {
+      margin-top: 20px;
+      margin-left: 2rem;
+      font-size: 26px;
+      text-align: left;
+      line-height: 30px;
+    }
     
   }
